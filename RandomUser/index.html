@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Random User Coding Challenge</title>
+        <link rel="stylesheet" href="CSS/styles.css" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+        <script src="Scripts/scripts.js" defer></script>
+    </head>
+    <body>
+        <div class="Pic" id="Pic">
+            <img src="" />
+        </div>       
+        <div>            
+            <h1 id="Name"></h1>
+            <h1 id="Email" hidden></h1>
+            <h1 id="Birthday" hidden></h1>
+            <h1 id="Address" hidden></h1>
+            <h1 id="Phone" hidden></h1>
+            <h1 id="Password" hidden></h1>
+        </div>
+        <hr>
+        <form>
+            <h1>Contact Me</h1>
+            <p>Name</p>
+            <input type="text" name="name"><br>
+            <p>Email</p>
+            <input type="text" name="email"><br><br>
+            <textarea name="comment" rows="7">How can I help?</textarea><br><br>
+            <input type="submit" value="Submit" onclick="Alert()">
+        </form><br>
+        <hr>
+    </body>
+    <script>
+        //* TO DO: CREATE FUNCTION TO TOGGLE 'hidden' STATUS ON DATA POINTS IN THE BODY
+        function Alert(){
+            window.alert("Thanks! Your form has been submitted.");
+        }
+    </script>
+</html>

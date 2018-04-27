@@ -1,0 +1,40 @@
+/* GENERAL STYLES */
+html {
+    background-color: whitesmoke;
+    padding: 50px;
+    font-family: 'Oxygen';
+}
+
+img {
+    border-radius: 100%;
+    padding: 10px;
+}
+
+hr {
+    display: block;    
+    border: 0;
+    border-top: 1px solid #999;
+    margin: 1em 0;
+    padding: 0;
+}
+
+input, textarea {
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Oxygen';
+}
+
+/* GIVE THE FORM FIELDS A 'LINE' EFFECT INSTEAD OF A BOX */
+input[type=text] {
+    background: transparent;
+    outline: 0;
+    border: 0;
+    border-bottom: 2px solid black;
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 768px) {
+    input, textarea {
+    width: 75%;    
+    }
+}
